@@ -3,11 +3,11 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/name' do
-    "Hello OG MONEY!"
+    "My name is Orieoma Idam"
 end
 
 get '/hometown' do
-  "from Ontario, Canada, OG MONEY!"
+  "My hometown is Ontario, Canada"
 end
 
 get '/favorite-song' do
